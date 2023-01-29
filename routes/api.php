@@ -34,8 +34,8 @@ Route::get('/portafolios', [PortafolioController::class, 'index']);
 Route::get('/portafolios/{portafolio}', [PortafolioController::class, 'show']);
 
 // Rutas públicas para el blog
-Route::get('/portafolios', [BlogController::class, 'index']);
-Route::get('/portafolios/{portafolio}', [BlogController::class, 'show']);
+Route::get('/blogs', [BlogController::class, 'index']);
+Route::get('/blogs/{blog}', [BlogController::class, 'show']);
 
 
 
